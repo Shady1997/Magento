@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-11T00:47:48 EET" name="Magento Web Application" finished-at="2022-08-11T00:48:43 EET" duration-ms="55071">
+    <groups>
+      <group name="smoke">
+        <method signature="TestBase.startApplication()[pri:1, instance:test_cases.TestCase001_Registeration@2a54a73f]" name="startApplication" class="test_cases.TestBase"/>
+        <method signature="TestCase001_Registeration.registration()[pri:2, instance:test_cases.TestCase001_Registeration@2a54a73f]" name="registration" class="test_cases.TestCase001_Registeration"/>
+        <method signature="TestBase.startApplication()[pri:1, instance:test_cases.TestCase002_BuyProduct@1de76cc7]" name="startApplication" class="test_cases.TestBase"/>
+        <method signature="TestCase002_BuyProduct.addItemToCard()[pri:5, instance:test_cases.TestCase002_BuyProduct@1de76cc7]" name="addItemToCard" class="test_cases.TestCase002_BuyProduct"/>
+        <method signature="TestCase002_BuyProduct.hoverWomanList()[pri:4, instance:test_cases.TestCase002_BuyProduct@1de76cc7]" name="hoverWomanList" class="test_cases.TestCase002_BuyProduct"/>
+        <method signature="TestCase002_BuyProduct.login()[pri:3, instance:test_cases.TestCase002_BuyProduct@1de76cc7]" name="login" class="test_cases.TestCase002_BuyProduct"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2022-08-11T00:47:48 EET" name="Test Registration Function" finished-at="2022-08-11T00:48:08 EET" duration-ms="19386">
+      <class name="test_cases.TestCase001_Registeration">
+        <test-method is-config="true" signature="prepareClassProperties(java.lang.String)[pri:0, instance:test_cases.TestCase001_Registeration@2a54a73f]" started-at="2022-08-11T00:47:48 EET" name="prepareClassProperties" finished-at="2022-08-11T00:47:53 EET" duration-ms="5067" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareClassProperties -->
+        <test-method signature="startApplication()[pri:1, instance:test_cases.TestCase001_Registeration@2a54a73f]" started-at="2022-08-11T00:47:54 EET" name="startApplication" description="Start Magento Web Application" finished-at="2022-08-11T00:47:58 EET" duration-ms="4050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method signature="registration()[pri:2, instance:test_cases.TestCase001_Registeration@2a54a73f]" started-at="2022-08-11T00:47:58 EET" name="registration" description="Register to Magento Web Application" finished-at="2022-08-11T00:48:06 EET" duration-ms="8609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.TestCase001_Registeration@2a54a73f]" started-at="2022-08-11T00:48:06 EET" name="tearDown" finished-at="2022-08-11T00:48:08 EET" duration-ms="1590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TestCase001_Registeration -->
+    </test> <!-- Test Registration Function -->
+    <test started-at="2022-08-11T00:48:08 EET" name="Login and add Item to Card" finished-at="2022-08-11T00:48:43 EET" duration-ms="35570">
+      <class name="test_cases.TestCase002_BuyProduct">
+        <test-method is-config="true" signature="prepareClassProperties(java.lang.String)[pri:0, instance:test_cases.TestCase002_BuyProduct@1de76cc7]" started-at="2022-08-11T00:48:08 EET" name="prepareClassProperties" finished-at="2022-08-11T00:48:11 EET" duration-ms="3495" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prepareClassProperties -->
+        <test-method signature="startApplication()[pri:1, instance:test_cases.TestCase002_BuyProduct@1de76cc7]" started-at="2022-08-11T00:48:11 EET" name="startApplication" description="Start Magento Web Application" finished-at="2022-08-11T00:48:16 EET" duration-ms="4732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method signature="login()[pri:3, instance:test_cases.TestCase002_BuyProduct@1de76cc7]" started-at="2022-08-11T00:48:16 EET" name="login" description="Login to Magento Web Application" finished-at="2022-08-11T00:48:23 EET" duration-ms="6473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="hoverWomanList()[pri:4, instance:test_cases.TestCase002_BuyProduct@1de76cc7]" started-at="2022-08-11T00:48:23 EET" name="hoverWomanList" description="Hover Woman List" finished-at="2022-08-11T00:48:32 EET" duration-ms="9253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hoverWomanList -->
+        <test-method signature="addItemToCard()[pri:5, instance:test_cases.TestCase002_BuyProduct@1de76cc7]" started-at="2022-08-11T00:48:32 EET" name="addItemToCard" description="Add new Item to card and check grand total" finished-at="2022-08-11T00:48:42 EET" duration-ms="10045" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addItemToCard -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_cases.TestCase002_BuyProduct@1de76cc7]" started-at="2022-08-11T00:48:42 EET" name="tearDown" finished-at="2022-08-11T00:48:43 EET" duration-ms="1553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_cases.TestCase002_BuyProduct -->
+    </test> <!-- Login and add Item to Card -->
+  </suite> <!-- Magento Web Application -->
+</testng-results>
